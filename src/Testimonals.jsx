@@ -6,7 +6,7 @@ import { members } from './data';
 
 export default class Testimonials extends Component {
   render() {
-    return ( <div className="testimonials-container"  style={{marginLeft: "auto",marginRight:"auto",margin:"auto",position:'relative',top:'75px'}}>
+    return ( <div className="testimonials-container"  style={{marginLeft: "auto",marginRight:"auto",margin:"auto",position:'absolute',top:'75px'}}>
       <Carousel
         showArrows={true}
         infiniteLoop={true}
